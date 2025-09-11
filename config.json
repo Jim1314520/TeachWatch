@@ -1,0 +1,33 @@
+{
+  "smtp": {
+    "host": "smtp.qq.com",
+    "port": 587,
+    "sender": "2942566932@qq.com",
+    "auth": "jqsjtpjsevkydehe"
+  },
+  "recipients_map": {
+    "hy": ["3033146640@qq.com", "jokertom285@gmail.com", "2942566932@qq.com"],
+    "_default": ["2942566932@qq.com"]
+  },
+  "recipients_all": [
+    "3033146640@qq.com",
+    "jokertom285@gmail.com",
+    "2942566932@qq.com"
+  ],
+  "recognition": {
+    "tolerance": 0.45,
+    "scale": 0.5,
+    "model": "hog"
+  },
+  "limits": {
+    "max_per_person_per_day": 3,
+    "auto_save_interval_sec": 5,
+    "event_cooldown_sec": 60
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "logs/facewatch.log",
+    "max_mb": 5,
+    "backups": 5
+  }
+}
